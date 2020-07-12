@@ -365,7 +365,6 @@ h1, h2, h3, h4, h5, h6 {
     border-radius: 50px;
 
 }
-
 .btn--yappa{
     background: #843136;
     color: white;
@@ -394,11 +393,12 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 100;
     font-size: 100;
     margin: 10px 0 20px;
+    margin-top: 50px;
     margin-left: 15px;
     width: 95%;
     border-bottom: 1px solid #000;
     line-height: 0.1em;
-    padding: 0 10px;
+    padding: 0 20px;
 }
 .group__title__span{
     background: #fff;
@@ -450,7 +450,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .como-funciona__img {
     max-height: 90px;
-    width: 80px;
+    width: 70px;
     object-fit: contain;
 }
 .arrow {
@@ -521,7 +521,8 @@ h1, h2, h3, h4, h5, h6 {
         height: 500px;
     }
     .column--50-25{
-        width: 47.5%;  
+        width: 47.5%; 
+        height: 260px;
     }
     .column--50-7 {
         width: 24.5%;
@@ -530,7 +531,7 @@ h1, h2, h3, h4, h5, h6 {
         margin-right: 5px;
     }
     .column--33{
-        width: 25%;
+        width: 22%;
         text-align: center;
     }
     .como-funciona__title{
@@ -538,12 +539,12 @@ h1, h2, h3, h4, h5, h6 {
         font-weight: 100;
         font-size: .8em;
         margin-right: 0px;
-        margin-left: 2px;
+        margin-left: -10px;
 
     }
     .como-funciona__img{
         max-height: 110px;
-        margin-left: 0px;
+        margin-left: -10px;
     }
     .arrow{
         display: none;
@@ -568,8 +569,17 @@ h1, h2, h3, h4, h5, h6 {
         margin-left: 1px;
         margin-right: 8px;
     }
-    
-    
+    .today-special__title {
+        font-size: 1.1em;
+    }
+    .main-footer{
+        font-size: .44em;
+    }
+    .main-footer [class*="icon-"]{
+        margin-left: 7px;
+        top: -4px;
+        font-size: 1.8em;
+    }
 }
 @media screen and (min-width:1000px) {
     .slider {
