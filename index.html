@@ -29,20 +29,22 @@
         <div class="container container--flex"></div>
             <span class="icon-menu" id="btnmenu"></span>
             <ul class="menu" id="menu">
-                <li class="menu__item"><a href="/" class="menu__link menu__link--select">Home</a></li>
-                <li class="menu__item"><a href="nosotros.html" class="menu__link">¿Qué es?</a></li>
-                <li class="menu__item"><a href="galeria.html" class="menu__link">Productos</a></li>
+                <li class="menu__item"><a href="#home" class="menu__link menu__link--select">Home</a></li>
+                <li class="menu__item"><a href="#nosotros" class="menu__link">¿Qué es?</a></li>
+                <li class="menu__item"><a href="#productos" class="menu__link">Productos</a></li>
+                <li class="menu__item"><a href="#yappa" class="menu__link">Yappa</a></li>
+                <li class="menu__item"><a href="#funciona" class="menu__link">¿Cómo Funciona?</a></li>
                 <li class="menu__item"><a href="#contacto" class="menu__link">Contacto</a></li>
             </ul>
     </nav>
-    <section class="banner">
+    <section id = "home" class="banner">
         <img src="img/banner.jpg" alt="" class="banner__img">
         <div class="banner__content">
             <img src="img/slogan.png" alt="">
         </div>
     </section>
     
-    <main class="main">
+    <main id = "nosotros" class="main">
         <!--<section class="group group--color">
             <div class="container">
                 <h2 class="main__title">Bienvenido a El Galeno</h2>
@@ -52,7 +54,7 @@
         
         <section class="group main__about__description">
                 <ul class="slider">
-            <li>
+            <li id="productos">
                 <input type="radio" id="sbutton1" name="sradio" checked>
                 <label for="sbutton1"></label>
                 <img src="img/photo1.jpg" alt="">
@@ -103,29 +105,28 @@
             </li>
         </ul>
         </section>
-        
-        <section class="group today-special">
-            <h2 class="group__title">
-            <span class = "group__title__span">Productos</span>
+        <section  class="group today-special">
+            <h2  class="group__title">
+            <span class = "group__title__span">PRODUCTOS</span>
             </h2>
-            <div class="container container__flex">
+            <div class="container container--flex">
                 <div class="column column--50-25">
-                    <img src="img/pisco1.png" alt="" class="today-special__img">
+                    <img src="img/itala%20750.png" alt="" class="today-special__img">
                     <div class="today-special__title title1">Pisco Italia</div>
                     <a href="" class="btn btn--vermas1">Ver más</a>
                 </div>
                 <div class="column column--50-25">
-                    <img src="img/pisco2.png" alt="" class="today-special__img">
+                    <img src="img/quebranta%20750.png" alt="" class="today-special__img">
                     <div class="today-special__title title2">Pisco Quebranta</div>
                     <a href="" class="btn btn--vermas2">Ver más</a>
                 </div>
                 <div class="column column--50-25">
-                    <img src="img/vino1.png" alt="" class="today-special__img">
+                    <img src="img/vino_italia.png" alt="" class="today-special__img">
                     <div class="today-special__title title3">Vino Italia</div>
-                    <a href="" class="btn btn--vermas3">Ver más</a>
+                    <a id = "funciona" href="" class="btn btn--vermas3">Ver más</a>
                 </div>
                 <div class="column column--50-25">
-                    <img src="img/vino2.png" alt="" class="today-special__img">
+                    <img src="img/vino_quebranta.png" alt="" class="today-special__img">
                     <div class="today-special__title title4">Vino Quebranta</div>
                     <a href="" class="btn btn--vermas4">Ver más</a>
                 </div>
@@ -133,29 +134,36 @@
         </section>
         
         <section class="group como-funciona">
-            <h2 class="como-funciona__title">¿Cómo Funciona?</h2>
-            <div class="container container__flex">
+            <h2 class="group__title">
+            <span class = "group__title__span">¿COMO FUNCIONA?</span>
+            </h2>
+            <div class="container container--flex">
+                <div class="column column--50-7">
+                    <div class = "number">1</div>
+                </div>
                 <div class="column column--50-7">
                     <img src="img/grapes.png" alt="" class="como-funciona__img">
                     <div class="como-funciona__title">Cosechar</div>
                 </div>
                 <div class="column column--50-7">
-                    <div class = "arrow">&rarr;</div>
+                    <div class="arrow">&rarr;</div>
+                    <div class = "number">2</div>
                 </div>
                 <div class="column column--50-7">
                     <img src="img/distill.png" alt="" class="como-funciona__img">
                     <div class="como-funciona__title">Destilar</div>
                 </div>
                 <div class="column column--50-7">
-                    <div class = "arrow">&rarr;</div>
+                    <div class="arrow">&rarr;</div>
+                    <div class = "number">3</div>
                 </div>
                 <div class="column column--50-7">
                     <img src="img/bottle.png" alt="" class="como-funciona__img">
                     <div class="como-funciona__title">Embotellar</div>
                 </div>
                 <div class="column column--50-7">
-                    
-                    <div class = "arrow">&rarr;</div>
+                    <div class="arrow">&rarr;</div>
+                    <div class = "number">4</div>
                 </div>
                 <div class="column column--50-7">
                     <img src="img/cheers.png" alt="" class="como-funciona__img">
@@ -163,6 +171,17 @@
                 </div>
             </div>
         </section>
+        <section id = "yappa" class="banner">
+        <img src="img/banner_yappa.png" alt="" class="banner__img2">
+        <div class="banner__content2">
+            <div class="yappa__title"> YA PUEDES ENCONTRARNOS EN </div>
+            <img class="yappa__img" src="img/Yappaa.png" alt="">
+            <a href="https://www.yappa.shop/tienda/piscos-y-vinos-el-galeno" class="btn btn--yappa">INGRESAR</a>
+            <img class="yappa__logo" src="img/slogan.png" alt="">
+            <hr class="yappa__linea">
+            <div class="yappa__title2">TOMAR BEBIDAS ALCOHÓLICAS EN EXCESO ES DAÑINO</div>
+        </div>
+    </section>
         
     </main>
     <footer id="contacto" class="main-footer">
@@ -173,10 +192,12 @@
                 </div>
                 <div class="column column--33">
                    <h2 class="column__title">Política de </h2>
+                   <p class="column__txt"></p> 
                    
                 </div>
                 <div class="column column--33">
                    <h2 class="column__title">Política de </h2>
+                   <p class="column__txt"></p> 
                    
                 </div>
                 <div class="social-icon">
@@ -184,9 +205,7 @@
                     <a href="" class="social-icon__link"><span class="icon-instagram"></span></a>
                     <a href="" class="social-icon__link"><span class="icon-mail"></span></a>
                 </div>
-                <p class="copy">Producido por Amador Arias Ronceros. San Antonio. Cañete . Telefono : XXX XXX XXX</p>
-                <p class="copy">Marca registrada. Producto Peruano. RUC : XXXXXX RSA: XXXXX. Conservar en un ambiente fresco</p>
-                <p class="copy">Ingredientes: Uva xxx,xxx,xxx. Temperatura de servicio: XX°</p>
+                <p class="copy">Producido por Amador Arias Ronceros. San Antonio. Cañete . Telefono : XXX XXX XXX Marca registrada. Producto Peruano. RUC : XXXXXX RSA: XXXXX. Conservar en un ambiente fresco Ingredientes: Uva xxx,xxx,xxx. Temperatura de servicio: XX°</p>
             </div>
         </footer>
     <script src="js/menu.js"></script>
